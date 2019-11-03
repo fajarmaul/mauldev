@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InstrumentationTestActivity"
+    android:orientation="vertical"
+    android:padding="@dimen/default_padding">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMI Kamu"
+        android:textSize="@dimen/font_size_xxlarge"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/textBlack"/>
+
+    <TextView
+        android:id="@+id/bmiTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/margin_small"
+        android:textSize="@dimen/font_size_xlarge"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/textBlack"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin"
+        android:text="Tinggi"
+        android:textSize="@dimen/font_size_large"
+        android:textColor="@color/textBlack"/>
+    <EditText
+        android:id="@+id/tinggiET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan tinggi"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Berat"
+        android:layout_marginTop="@dimen/default_margin"
+        android:textSize="@dimen/font_size_large"
+        android:textColor="@color/textBlack"/>
+    <EditText
+        android:id="@+id/beratET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan berat"/>
+
+    <Button
+        android:id="@+id/hitungBMIButton"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/default_margin"
+        android:backgroundTint="@color/colorAccent"
+        android:text="Hitung BMI"
+        android:textColor="@color/textWhite"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

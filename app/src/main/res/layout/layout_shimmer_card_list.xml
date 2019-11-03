@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_marginStart="@dimen/default_margin"
+    android:layout_marginTop="@dimen/default_margin"
+    android:layout_marginEnd="@dimen/default_margin">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="5">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:src="@color/shimmer_color"
+            android:scaleType="centerCrop"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/shimmer_dimen_textview_height"
+                android:gravity="center"
+                android:background="@color/shimmer_color"
+                android:layout_marginStart="@dimen/default_margin"
+                android:layout_marginTop="@dimen/default_margin"
+                android:layout_marginEnd="@dimen/default_margin"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/shimmer_dimen_textview_height"
+                android:gravity="center"
+                android:background="@color/shimmer_color"
+                android:layout_marginTop="@dimen/margin_small"
+                android:layout_marginStart="@dimen/default_margin"
+                android:layout_marginEnd="@dimen/default_margin"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

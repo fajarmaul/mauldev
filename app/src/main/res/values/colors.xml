@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="shimmer_color">#DDDDDD</color>
+
+    <color name="bg_main">#FFF8EE</color>
+    <color name="orentua_text">#FF8939</color>
+    <color name="textcolor">#FF8939</color>
+    <color name="text_warna">#FF8939</color>
+    <color name="colorbackground">#FAFAFA</color>
+    <color name="textcolor1">#356859</color>
+    <color name="bg_color">#FFF8EE</color>
+
+    <color name="textBlack">#212121</color>
+    <color name="textWhite">#f3f3f3</color>
+    <color name="textGrey">#757575</color>
+    <color name="dividerGrey">#bdbdbd</color>
+    <color name="textGreen">#356859</color>
+    <color name="levelGreen">#DDE6E3</color>
+    <color name="cancelRed">#DD3D3D</color>
+    <color name="aqua">#ABDAC7</color>
+    <color name="orange">#FFB24A</color>
+    <color name="lightBlue">#BCE0FD</color>
+</resources>
